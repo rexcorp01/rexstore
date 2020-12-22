@@ -5,7 +5,7 @@ var config = {
   admin_pass: "password",
   admin_email: "admin@flatlogic.com",
   secret_key: "HUEyqESqgQ1yTwzVlO6wprC9Kf1J1xuA",
-  remote: 'https://flatlogic-node-backend.herokuapp.com',
+  remote: 'https://rexstore-backend.herokuapp.com/',
   port: process.env.NODE_ENV === "production" ? "" : "8080",
   hostUI: process.env.NODE_ENV === "production" ? "https://smart-venus.com" : "http://localhost",
   portUI: process.env.NODE_ENV === "production" ? "" : "3000",
